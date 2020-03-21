@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">OPLiftToWake</string>
-
     <string name="channel_name">OPLiftToWakeChannelName</string>
+    <string name="switch_lift">Lift To Wake</string>
 </resources>

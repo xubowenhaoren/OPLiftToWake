@@ -12,6 +12,7 @@ import android.os.UserHandle;
 import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.Log;
+import android.widget.Toast;
 
 import java.util.List;
 
@@ -20,14 +21,16 @@ public class Utils {
     private static final boolean DEBUG = true;
     private static PowerManager.WakeLock wakeLock;
 
-    protected static Sensor getSensor(SensorManager sm, String type) {
+    protected static Sensor getSensor(Context context, SensorManager sm, String type) {
         for (Sensor sensor : sm.getSensorList(Sensor.TYPE_ALL)) {
             if (type.equals(sensor.getStringType())) {
                 if (DEBUG) Log.d(TAG, "SENSOR FOUND");
+                Toast.makeText(context,"Sensor found, service ready!",Toast.LENGTH_SHORT).show();
                 return sensor;
             }
         }
         if (DEBUG) Log.d(TAG, "SENSOR NOT FOUND");
+        Toast.makeText(context,"Sensor NOT found",Toast.LENGTH_SHORT).show();
         return null;
     }
 
@@ -51,6 +54,7 @@ public class Utils {
     }
 
 
+//    https://www.jianshu.com/p/46859e268c8d
     @SuppressLint("InvalidWakeLockTag")
     public static void lightUpScreen(Context context) {
 //        ScreenUtil.setScreenAlwaysOn(context,true);
