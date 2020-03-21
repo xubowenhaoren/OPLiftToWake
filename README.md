@@ -35,6 +35,9 @@ If you want this app to work with earlier OnePlus phones, you should try replaci
 
 #### How do I use it?
 
+You probably want to turn off the Ambient Display first.
+
+
 After installing the app, turn on the "Lift To Wake" toggle.
 You should also consider turning off the battery optimization of the app for a more consistent background performance.
 Follow a guide [here](http://nine-faq.9folders.com/articles/11588-how-to-turn-off-battery-optimization-on-the-oneplus).
