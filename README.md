@@ -5,6 +5,16 @@
 This is a simple app to enable Lift To Wake for OnePlus 7 series.
 It is not the Lift To "Ambient Display" in the stock Settings App; it enables the true Lift To "Lock Screen" like other phones.
 
+#### Why do I want this feature?
+
+You've probably already known that OnePlus, in Android 10, reveals the notification content on the lock screen after Face Unlock.
+But to see those notifications, you either need to:
+
+1. Pick up the phone and unlock with your finger at the Ambient Display. A two-step process.
+2. Pick up the phone and press the power button. Again, a two-step process.
+
+Now with the app, you can pick up the phone and the lock screen immediately shows up.
+
 #### How does it do this?
 
 It listens to the native system sensor (`oneplus.sensor.pickup`). In my testing, it is very power efficient.
