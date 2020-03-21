@@ -39,7 +39,7 @@ public class DozeService extends Service {
         //如果API在26以上即版本为O则调用startForefround()方法启动服务
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
             if (DEBUG) Log.d(TAG, "Android O detected, starting foreground");
-            setForegroundService("LiftToWake", "Lift to Wake Active",
+            setForegroundService(this.getString(R.string.switch_lift), this.getString(R.string.lift_active),
                     "Lift to Wake Active Channel");
         }
     }

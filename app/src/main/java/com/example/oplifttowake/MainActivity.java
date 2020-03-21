@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         } else {
             Utils.stopService(this);
         }
-        Toast.makeText(this,"Lift to Wake: "+state,Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, this.getString(R.string.switch_lift) + " "+ state,Toast.LENGTH_SHORT).show();
 
     }
 }

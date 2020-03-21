@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">一加抬腕亮屏</string>
+    <string name="channel_name">OPLiftToWakeChannelName</string>
+    <string name="switch_lift">抬腕亮屏</string>
+    <string name="lift_active" >抬腕亮屏已开启</string>
+    <string name="sensor_found">传感器已匹配，服务就绪</string>
+    <string name="sensor_not_found">传感器匹配失败</string>
+</resources>

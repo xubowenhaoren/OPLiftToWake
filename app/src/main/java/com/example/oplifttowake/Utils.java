@@ -25,12 +25,12 @@ public class Utils {
         for (Sensor sensor : sm.getSensorList(Sensor.TYPE_ALL)) {
             if (type.equals(sensor.getStringType())) {
                 if (DEBUG) Log.d(TAG, "SENSOR FOUND");
-                Toast.makeText(context,"Sensor found, service ready!",Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, context.getString(R.string.sensor_found),Toast.LENGTH_SHORT).show();
                 return sensor;
             }
         }
         if (DEBUG) Log.d(TAG, "SENSOR NOT FOUND");
-        Toast.makeText(context,"Sensor NOT found",Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, context.getString(R.string.sensor_not_found),Toast.LENGTH_SHORT).show();
         return null;
     }
 

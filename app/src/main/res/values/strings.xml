@@ -2,4 +2,7 @@
     <string name="app_name">OPLiftToWake</string>
     <string name="channel_name">OPLiftToWakeChannelName</string>
     <string name="switch_lift">Lift To Wake</string>
+    <string name="lift_active">Lift to Wake Active</string>
+    <string name="sensor_found">Sensor found, service ready!</string>
+    <string name="sensor_not_found">Sensor NOT found!</string>
 </resources>
