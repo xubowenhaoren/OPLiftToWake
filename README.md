@@ -19,6 +19,12 @@ If you want this app to work with earlier OnePlus phones, you should try replaci
         mSensor = Utils.getSensor(context, mSensorManager, "oneplus.sensor.pickup");
 ```
 
+#### How do I use it?
+
+After installing the app, turn on the "Lift To Wake" toggle.
+You should also consider turning off the battery optimization for the app for a more consistent background performance.
+Follow a guide [here](http://nine-faq.9folders.com/articles/11588-how-to-turn-off-battery-optimization-on-the-oneplus).
+
 #### Credits
 
 Much of the code is from the Lineage OS team.
