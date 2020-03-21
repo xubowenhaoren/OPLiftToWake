@@ -18,7 +18,7 @@ import java.util.List;
 
 public class Utils {
     private static final String TAG = "Utils";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
     private static PowerManager.WakeLock wakeLock;
 
     protected static Sensor getSensor(Context context, SensorManager sm, String type) {

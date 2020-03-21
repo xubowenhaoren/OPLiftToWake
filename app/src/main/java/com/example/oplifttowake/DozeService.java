@@ -16,7 +16,7 @@ import androidx.core.app.NotificationCompat;
 
 public class DozeService extends Service {
     private static final String TAG = "DozeService";
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     private static final String CHANNEL_ID = "OPLiftToWakeChannel";
 

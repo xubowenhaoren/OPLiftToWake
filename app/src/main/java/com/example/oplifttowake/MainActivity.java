@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
     @Override
     public void onResume(){
         super.onResume();
-        Log.d(TAG, "OnResume");
+//        Log.d(TAG, "OnResume");
 //        Utils.checkDozeService(this);
 
     }
