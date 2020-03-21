@@ -1,3 +1,5 @@
+English | [中文](https://github.com/xubowenhaoren/OPLiftToWake/blob/master/README_cn.md)
+
 ## OnePlus Lift To Wake
 
 #### TL, DR. Where is the download?
