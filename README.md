@@ -1,5 +1,9 @@
 ## OnePlus Lift To Wake
 
+#### TL, DR. Where is the download?
+
+[https://github.com/xubowenhaoren/OPLiftToWake/releases](https://github.com/xubowenhaoren/OPLiftToWake/releases)
+
 #### What does it do?
 
 This is a simple app to enable Lift To Wake for OnePlus 7 series.
