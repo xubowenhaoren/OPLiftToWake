@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
     @Override
     public void onResume(){
         super.onResume();
+//        https://stackoverflow.com/questions/32627342/how-to-whitelist-app-in-doze-mode-android-6-0
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             Intent intent = new Intent();
             String packageName = getPackageName();
