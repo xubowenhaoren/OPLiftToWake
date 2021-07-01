@@ -29,7 +29,7 @@
 
 我在自己的一加7T（安卓10稳定版，氧OS）测试过。其他的一加7系列应该是通用的。
 一加老型号的手机也有一个[原生传感器](http://stools.gleamolabs.com/sensors/devices/227)，但名字不太一样。
-如果你想让这个 app 支持老型号的话，修改在 `Utils.java` 的这行代码中的传感器名称：
+如果你想让这个 app 支持老型号的话，修改在 `PickupSensor.java` 的这行代码中的传感器名称：
 
 ```
         mSensor = Utils.getSensor(context, mSensorManager, "oneplus.sensor.pickup");

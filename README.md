@@ -29,7 +29,7 @@ It listens to the native system sensor (`oneplus.sensor.pickup`). In my testing,
 
 I have tested this on a OnePlus 7T with Android 10. It should also work with other OnePlus 7 series.
 Note that for earlier OnePlus phones, there is also a [pickup sensor](http://stools.gleamolabs.com/sensors/devices/227) but with a different name.
-If you want this app to work with earlier OnePlus phones, you should try replacing this line in `Utils.java` with the correct sensor name:
+If you want this app to work with earlier OnePlus phones, you should try replacing this line in `PickupSensor.java` with the correct sensor name:
 
 ```
         mSensor = Utils.getSensor(context, mSensorManager, "oneplus.sensor.pickup");
