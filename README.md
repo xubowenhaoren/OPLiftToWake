@@ -35,6 +35,8 @@ If you want this app to work with earlier OnePlus phones, you should try replaci
         mSensor = Utils.getSensor(context, mSensorManager, "oneplus.sensor.pickup");
 ```
 
+Change the sensor above to "oneplus.sensor.op_motion_detect" to support OnePlus 8/9 series. 
+
 #### How do I use it?
 
 You probably want to turn off the Ambient Display first.

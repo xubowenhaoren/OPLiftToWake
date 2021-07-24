@@ -35,6 +35,8 @@
         mSensor = Utils.getSensor(context, mSensorManager, "oneplus.sensor.pickup");
 ```
 
+改成 `oneplus.sensor.op_motion_detect`就能支持一加8/9系列。
+
 #### 如何使用？
 
 你可能需要先在设置里把息屏显示关掉。
